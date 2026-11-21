@@ -48,7 +48,7 @@ mkdir -p "$NOVAOS_ROOT/tools/fixtures"
 cp zenith.elf "$NOVAOS_ROOT/tools/fixtures/ZENITH.ELF"
 cp zenith.elf "$NOVAOS_ROOT/tools/fixtures/OFFICE.ELF"
 cp zenith.elf "$NOVAOS_ROOT/tools/fixtures/WRITER.ELF"
-cp zenith.elf "$NOVAOS_ROOT/tools/fixtures/CALC.ELF"
+cp zenith.elf "$NOVAOS_ROOT/tools/fixtures/SHEETS.ELF"
 cp zenith.elf "$NOVAOS_ROOT/tools/fixtures/PRESENT.ELF"
 
 # Generate ZENITH.PKG and OFFICE.PKG metadata fixtures
