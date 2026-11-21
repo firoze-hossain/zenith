@@ -197,6 +197,7 @@ pub fn export_all_snapshots(target_dir: &str) {
 #[cfg(test)]
 mod tests {
     use super::*;
+    use zenith_ui::Surface;
 
     #[test]
     fn test_sample_suite_and_png_export() {
