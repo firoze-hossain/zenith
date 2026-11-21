@@ -1,0 +1,9 @@
+[package]
+name = "zenith-core"
+version = "1.0.0"
+edition = "2021"
+authors = ["NovaOS Enterprise Team <engineering@novaos.org>"]
+description = "Core engine for Zenith Office Suite: Writer, Calc, Present, Base, and Font Metrics"
+license = "MIT OR Apache-2.0"
+
+[dependencies]

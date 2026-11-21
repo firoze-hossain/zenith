@@ -1,0 +1,15 @@
+[package]
+name = "zenith-app"
+version = "1.0.0"
+edition = "2021"
+authors = ["NovaOS Enterprise Team <engineering@novaos.org>"]
+description = "Desktop executable and CLI for Zenith Office Suite"
+license = "MIT OR Apache-2.0"
+
+[[bin]]
+name = "zenith"
+path = "src/main.rs"
+
+[dependencies]
+zenith-core = { path = "../zenith-core" }
+zenith-ui = { path = "../zenith-ui" }

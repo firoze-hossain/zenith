@@ -1,0 +1,10 @@
+[package]
+name = "zenith-ui"
+version = "1.0.0"
+edition = "2021"
+authors = ["NovaOS Enterprise Team <engineering@novaos.org>"]
+description = "Software 2D UI and Fluent Ribbon rendering engine for Zenith Office Suite"
+license = "MIT OR Apache-2.0"
+
+[dependencies]
+zenith-core = { path = "../zenith-core" }
